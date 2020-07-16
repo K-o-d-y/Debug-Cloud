@@ -11,3 +11,4 @@
 11.添加NoPush(防止1.9+碰撞移动)
 12.添加BoatFly
 13.添加FastLadder
+14.移除按键显示
