@@ -1,0 +1,13 @@
+1.1.12.2-1.8.x的跨版本
+2.添加AutoFish
+3.升级至1.12.2 Optifine C6
+4.加快Hypixel Speed速度
+5.杀戮支持在1.8服务器下格挡(无影响)
+6.Animation改名OldHitting
+7.删除swinganimation
+8.杀戮支持1.9+
+9.修复CubeCraft绕过
+10.修复卡背包
+11.添加NoPush(防止1.9+碰撞移动)
+12.添加BoatFly
+13.添加FastLadder
