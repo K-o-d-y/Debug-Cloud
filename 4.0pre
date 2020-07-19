@@ -13,7 +13,7 @@
 13.移除按键显示
 14.Hypixel FastEat(秒吃)
 15.卡背包修复
-16.ZoomFly修复(目前客服暂时无法使用)
+16.ZoomFly修复(Patch)
 17.Animation添加OldDamage
 18.修复Arraylist sort的问题
 19.FastEat Instant模式
@@ -21,3 +21,4 @@
 21.HUD添加Ping选项
 22.AltLogin修改
 23.修复AutoHeal SpeedPotion的转头
+24.添加Hypixel LongJump
