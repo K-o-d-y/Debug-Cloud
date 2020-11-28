@@ -1,0 +1,825 @@
+{
+  "WTap": {
+    "Enabled": false,
+    "Value": {
+      "Range": 3.5
+    }
+  },
+  "AutoSword": {
+    "Enabled": true,
+    "Boolean": {
+      "OpenInv": false
+    },
+    "Value": {
+      "Delay": 200.0,
+      "Slot": 1.0
+    }
+  },
+  "Hitbox": {
+    "Enabled": false,
+    "Value": {
+      "Size": 0.0
+    }
+  },
+  "Velocity": {
+    "Enabled": true,
+    "Mode": {
+      "Velocity": "Normal"
+    },
+    "sub-settings": {
+      "Normal": {
+        "Value": {
+          "Horizontal": 0.0,
+          "Vertical": 0.0
+        },
+        "Boolean": {
+          "Explosion": true
+        }
+      },
+      "AAC": {
+        "Mode": {
+          "AACMode": "Pull"
+        },
+        "Boolean": {
+          "StopWall": true,
+          "Move": true
+        },
+        "Value": {
+          "HurtTime": 6.0
+        }
+      }
+    }
+  },
+  "Aura": {
+    "Enabled": false,
+    "Boolean": {
+      "AutoBlock": true,
+      "StopSprint": false,
+      "Players": true,
+      "Mobs": false,
+      "Animals": false,
+      "Invisible": false,
+      "ThroughWalls": true,
+      "CoolDown": false,
+      "LookView": false,
+      "RandomRotation": false,
+      "RayCast": false,
+      "InvCheck": false,
+      "SwordBlock": true,
+      "AutoDisable": true,
+      "KeepRotations": false,
+      "Relative": false,
+      "FakeSwing": false,
+      "NoSwing": false
+    },
+    "Value": {
+      "Range": 4.2,
+      "BlockRange": 6.0,
+      "CoolDown": 1.0,
+      "MinCPS": 7.0,
+      "MaxCPS": 10.0,
+      "SwitchDelay": 1000.0,
+      "BlockRate": 100.0,
+      "HitRate": 100.0,
+      "HurtTime": 10.0,
+      "Fov": 180.0,
+      "MinRotationSpeed": 180.0,
+      "MaxRotationSpeed": 180.0
+    },
+    "Mode": {
+      "Mode": "Switch",
+      "BlockMode": "NCP",
+      "Priority": "Health",
+      "Attack": "Post"
+    }
+  },
+  "Aimbot": {
+    "Enabled": false,
+    "Boolean": {
+      "Head": false,
+      "Players": true,
+      "Mobs": false,
+      "Animals": false,
+      "Silent": true,
+      "Predict": true
+    },
+    "Value": {
+      "Range": 100.0
+    }
+  },
+  "Criticals": {
+    "Enabled": true,
+    "Boolean": {
+      "StopSpeed": true
+    },
+    "Value": {
+      "Delay": 500.0,
+      "HurtTime": 14.0
+    },
+    "Mode": {
+      "Mode": "Hypixel"
+    }
+  },
+  "KeepSprint": {
+    "Enabled": true
+  },
+  "TNTBlock": {
+    "Enabled": false,
+    "Boolean": {
+      "Sword": true
+    },
+    "Value": {
+      "Range": 6.0
+    }
+  },
+  "TeleportHit": {
+    "Enabled": false,
+    "Boolean": {
+      "RemoveWither": true,
+      "ThroughWalls": false
+    }
+  },
+  "TPAura": {
+    "Enabled": false,
+    "Boolean": {
+      "Players": true,
+      "Mobs": true,
+      "Animals": true,
+      "Invisible": true,
+      "ThroughWalls": false,
+      "CoolDown": false,
+      "ESP": true,
+      "LagBack": true
+    },
+    "Value": {
+      "CPS": 1.0,
+      "CoolDown": 1.0,
+      "Range": 40.0,
+      "MaxTargets": 1.0
+    },
+    "Mode": {
+      "Priority": "Range"
+    }
+  },
+  "AutoHeal": {
+    "Enabled": true,
+    "Boolean": {
+      "Potion": true,
+      "RegenPotion": true,
+      "SpeedPotion": true,
+      "HealthPotion": true,
+      "Head": false,
+      "Soup": false,
+      "AutoInv": true,
+      "DropSoup": false,
+      "GoldApple": true
+    },
+    "Value": {
+      "AppleSlot": 7.0,
+      "SoupSlot": 6.0,
+      "HeadSlot": 5.0,
+      "PotionDelay": 2000.0,
+      "AppleDelay": 500.0,
+      "SoupDelay": 500.0,
+      "HeadDelay": 0.0,
+      "Health": 14.0
+    },
+    "Mode": {
+      "AppleMode": "Absorption"
+    }
+  },
+  "Reach": {
+    "Enabled": false,
+    "Value": {
+      "Range": 4.2
+    }
+  },
+  "Sprint": {
+    "Enabled": true,
+    "Boolean": {
+      "Omni": true,
+      "UseItem": true,
+      "Wall": false,
+      "Potion": false,
+      "Food": false,
+      "Sneak": false,
+      "Rotation": false
+    }
+  },
+  "NoSlowDown": {
+    "Enabled": true,
+    "Boolean": {
+      "AuraSlow": true
+    },
+    "Value": {
+      "Speed": 1.0
+    },
+    "Mode": {
+      "Mode": "Vanilla"
+    }
+  },
+  "Strafe": {
+    "Enabled": false
+  },
+  "Flight": {
+    "Enabled": false,
+    "Boolean": {
+      "LagBack": true
+    },
+    "Mode": {
+      "Flight": "Hypixel"
+    },
+    "sub-settings": {
+      "Motion": {
+        "Boolean": {
+          "Global": true
+        },
+        "Value": {
+          "Speed": 2.0
+        }
+      },
+      "AntiKick": {
+        "Value": {
+          "Speed": 2.0
+        }
+      },
+      "Hypixel": {
+        "Boolean": {
+          "Wait": false,
+          "Boost": true,
+          "Damage": true,
+          "Blink": false,
+          "TimerBoost": true
+        },
+        "Value": {
+          "Damage": 1.0,
+          "Timer": 2.0,
+          "TimerDuration": 400.0,
+          "WaitDelay": 400.0,
+          "Speed": 5.0
+        },
+        "Mode": {
+          "WaitMode": "Hurt"
+        }
+      },
+      "MinePlex": {
+        "Value": {
+          "Speed": 3.5
+        }
+      },
+      "AAC3.3.13": {
+        "Value": {
+          "MotionY": 10.0
+        }
+      }
+    }
+  },
+  "Speed": {
+    "Enabled": false,
+    "Boolean": {
+      "LagBack": true
+    },
+    "Mode": {
+      "Speed": "Hypixel"
+    },
+    "sub-settings": {
+      "Vanilla": {
+        "Value": {
+          "Speed": 1.0,
+          "MotionY": 0.5
+        }
+      },
+      "AAC3.3.11": {
+        "Value": {
+          "OnGroundSpeed": 1.5
+        }
+      },
+      "AAC4.0.11": {
+        "Value": {
+          "OnGroundSpeed": 1.5
+        }
+      },
+      "Hypixel": {
+        "Boolean": {
+          "LowHop": false,
+          "TimerBoost": true
+        }
+      }
+    }
+  },
+  "Step": {
+    "Enabled": true,
+    "Mode": {
+      "Step": "NCP"
+    },
+    "sub-settings": {
+      "Vanilla": {
+        "Value": {
+          "Height": 1.0,
+          "Delay": 0.0
+        }
+      },
+      "NCP": {
+        "Value": {
+          "Height": 1.0,
+          "Delay": 0.0,
+          "Timer": 0.6
+        }
+      },
+      "AAC": {
+        "Value": {
+          "Height": 1.0,
+          "Delay": 0.0,
+          "Timer": 0.3
+        }
+      },
+      "Spider": {
+        "Mode": {
+          "Mode": "NCP"
+        }
+      }
+    }
+  },
+  "SafeWalk": {
+    "Enabled": false,
+    "Boolean": {
+      "AutoSneak": false
+    }
+  },
+  "HighJump": {
+    "Enabled": false,
+    "Mode": {
+      "HighJump": "Normal"
+    },
+    "sub-settings": {
+      "Normal": {
+        "Value": {
+          "Motion": 3.0
+        }
+      },
+      "HuaYuTing": {
+        "Value": {
+          "Motion": 10.0
+        }
+      }
+    }
+  },
+  "LongJump": {
+    "Enabled": false,
+    "Boolean": {
+      "LagBack": true
+    },
+    "Mode": {
+      "LongJump": "Hypixel"
+    },
+    "sub-settings": {
+      "Hypixel": {
+        "Boolean": {
+          "Glide": true
+        }
+      }
+    }
+  },
+  "TargetStrafe": {
+    "Enabled": true,
+    "Boolean": {
+      "TargetVoidCheck": true,
+      "VoidCheck": true,
+      "Fly": true,
+      "WallCheck": true,
+      "ESP": false
+    },
+    "Value": {
+      "Range": 1.5
+    }
+  },
+  "TerrainSpeed": {
+    "Enabled": false,
+    "Boolean": {
+      "Slab": true,
+      "Stair": true,
+      "HeadBlock": true,
+      "Wall": true,
+      "Slime": true,
+      "SlowDown": true
+    },
+    "Value": {
+      "SlabSpeed": 1.85,
+      "StairSpeed": 1.85,
+      "HeadBlockSpeed": 1.85,
+      "WallSpeed": 1.85,
+      "MaxSpeed": 1.85,
+      "SlimeSpeed": 1.85
+    }
+  },
+  "SlimeJump": {
+    "Enabled": false,
+    "Value": {
+      "MotionY": 2.0
+    }
+  },
+  "Jesus": {
+    "Enabled": true,
+    "Mode": {
+      "Jesus": "NCP"
+    }
+  },
+  "WaterSpeed": {
+    "Enabled": false,
+    "Value": {
+      "Speed": 1.1
+    }
+  },
+  "NoWeb": {
+    "Enabled": false,
+    "Mode": {
+      "NoWeb": "Normal"
+    }
+  },
+  "FastLadder": {
+    "Enabled": false,
+    "Mode": {
+      "FastLadder": "Vanilla"
+    },
+    "sub-settings": {
+      "Vanilla": {
+        "Value": {
+          "Speed": 0.2
+        }
+      }
+    }
+  },
+  "Spider": {
+    "Enabled": false,
+    "Mode": {
+      "Mode": "Jump"
+    }
+  },
+  "BoatFly": {
+    "Enabled": false,
+    "Value": {
+      "Speed": 1.5
+    },
+    "Mode": {
+      "Mode": "Normal"
+    }
+  },
+  "ElytraFly": {
+    "Enabled": false,
+    "Boolean": {
+      "InstantFly": true,
+      "StopOnLiquid": true
+    },
+    "Value": {
+      "Speed": 3.0
+    },
+    "Mode": {
+      "Mode": "Vanilla"
+    }
+  },
+  "EntitySpeed": {
+    "Enabled": false,
+    "Boolean": {
+      "NoNeedRod": true,
+      "Boost": true
+    },
+    "Value": {
+      "Speed": 1.5
+    }
+  },
+  "AntiCactus": {
+    "Enabled": false
+  },
+  "NoCommand": {
+    "Enabled": false
+  },
+  "NoFall": {
+    "Enabled": true,
+    "Mode": {
+      "NoFall": "OnGround"
+    },
+    "sub-settings": {
+      "AAC": {
+        "Mode": {
+          "AACMode": "3.3.9"
+        }
+      }
+    }
+  },
+  "NoRotate": {
+    "Enabled": true
+  },
+  "InvMove": {
+    "Enabled": true,
+    "Boolean": {
+      "AACP": false
+    }
+  },
+  "AntiSpam": {
+    "Enabled": false
+  },
+  "AutoArmor": {
+    "Enabled": true,
+    "Boolean": {
+      "OpenInv": false,
+      "Drop": true
+    },
+    "Value": {
+      "MinDelay": 100.0,
+      "MaxDelay": 100.0
+    }
+  },
+  "Teams": {
+    "Enabled": false
+  },
+  "AutoReSpawn": {
+    "Enabled": true
+  },
+  "AutoTool": {
+    "Enabled": true,
+    "Boolean": {
+      "Sword": false,
+      "Tool": true
+    }
+  },
+  "Fucker": {
+    "Enabled": false,
+    "Boolean": {
+      "BreakTrashBlocks": true,
+      "ThroughWalls": false,
+      "Rotation": true,
+      "NoSwing": false
+    },
+    "Value": {
+      "Range": 4.2
+    },
+    "Mode": {
+      "Mode": "Bed",
+      "BreakMode": "Normal"
+    }
+  },
+  "InvManager": {
+    "Enabled": true,
+    "Boolean": {
+      "Instant": false,
+      "OpenInv": false,
+      "KeepBestSword": true,
+      "KeepBestTool": true,
+      "KeepBestBow": true,
+      "KeepBestArmor": true,
+      "KeepBucket": true,
+      "KeepCompass": true
+    },
+    "Value": {
+      "MinDelay": 100.0,
+      "MaxDelay": 100.0
+    }
+  },
+  "FastEat": {
+    "Enabled": true,
+    "Boolean": {
+      "Potion": true
+    },
+    "Value": {
+      "Timer": 1.0
+    },
+    "Mode": {
+      "Mode": "Hypixel"
+    }
+  },
+  "Teleport": {
+    "Enabled": false,
+    "Value": {
+      "Range": 100.0
+    }
+  },
+  "Timer": {
+    "Enabled": false,
+    "Value": {
+      "Speed": 1.0
+    }
+  },
+  "MCF": {
+    "Enabled": false
+  },
+  "Disabler": {
+    "Enabled": false,
+    "Mode": {
+      "Mode": "Hypixel"
+    }
+  },
+  "NoPush": {
+    "Enabled": true
+  },
+  "AutoFish": {
+    "Enabled": false,
+    "Boolean": {
+      "AutoRod": true
+    },
+    "Value": {
+      "Range": 1.0
+    }
+  },
+  "BugFix": {
+    "Enabled": false,
+    "Boolean": {
+      "QuickMove": true,
+      "OldSharpness": true
+    }
+  },
+  "Blink": {
+    "Enabled": false
+  },
+  "AutoFarm": {
+    "Enabled": false,
+    "Value": {
+      "Range": 4.0
+    }
+  },
+  "Phase": {
+    "Enabled": false,
+    "Mode": {
+      "Phase": "Hypixel"
+    }
+  },
+  "Scaffold": {
+    "Enabled": false,
+    "Boolean": {
+      "NoSprint": false,
+      "RenderCount": true,
+      "SwapInvBlock": true,
+      "KeepRotations": true,
+      "RayCast": true,
+      "NoSwing": true,
+      "ESP": false,
+      "Eagle": false,
+      "SafeWalk": true,
+      "AirSafeWalk": false,
+      "TowerMove": true,
+      "Tower": true,
+      "TowerTick": true
+    },
+    "Value": {
+      "Slot": 8.0,
+      "MinDelay": 0.0,
+      "MaxDelay": 0.0,
+      "Speed": 1.0,
+      "TowerTicks": 5.0
+    },
+    "Mode": {
+      "Rotations": "Hypixel",
+      "Mode": "NCP",
+      "PlaceMode": "Post",
+      "SwapMode": "Normal",
+      "BlockMode": "Count",
+      "SwapInvMode": "Normal",
+      "TowerMode": "NCP"
+    }
+  },
+  "SpeedMine": {
+    "Enabled": true,
+    "Mode": {
+      "SpeedMine": "Fast"
+    },
+    "sub-settings": {
+      "Normal": {
+        "Value": {
+          "Damage": 0.7
+        }
+      },
+      "Fast": {
+        "Value": {
+          "Speed": 1.4
+        }
+      }
+    }
+  },
+  "AntiBot": {
+    "Enabled": true,
+    "Value": {
+      "ClearDelay": 2000.0,
+      "Ticks": 100.0
+    },
+    "Mode": {
+      "AntiBot": "Hypixel"
+    },
+    "sub-settings": {
+      "Hypixel": {
+        "Boolean": {
+          "Remove": true
+        }
+      },
+      "HuaYuTing": {
+        "Boolean": {
+          "Remove": false
+        }
+      },
+      "MC233": {
+        "Boolean": {
+          "Remove": false
+        }
+      },
+      "Matrix": {
+        "Boolean": {
+          "Remove": false
+        },
+        "Value": {
+          "MaxRange": 5.0,
+          "MaxSpeed": 1.5
+        }
+      }
+    }
+  },
+  "AntiFall": {
+    "Enabled": true,
+    "Boolean": {
+      "OnlyVoid": true
+    },
+    "Value": {
+      "FallDistance": 10.0
+    }
+  },
+  "MurderFinder": {
+    "Enabled": false
+  },
+  "HideAndSeek": {
+    "Enabled": false
+  },
+  "ChestStealer": {
+    "Enabled": true,
+    "Boolean": {
+      "Ignore": true,
+      "Close": true,
+      "NoMenu": true,
+      "Instant": false
+    },
+    "Value": {
+      "OpenDelay": 0.0,
+      "MinDelay": 150.0,
+      "MaxDelay": 150.0
+    }
+  },
+  "ChestAura": {
+    "Enabled": false,
+    "Boolean": {
+      "ThroughWalls": false
+    },
+    "Value": {
+      "Range": 4.2,
+      "MinDelay": 500.0,
+      "MaxDelay": 600.0
+    }
+  },
+  "AntiFire": {
+    "Enabled": false,
+    "Mode": {
+      "Mode": "NCP"
+    }
+  },
+  "Regen": {
+    "Enabled": false,
+    "Boolean": {
+      "Sneak": false,
+      "OnGround": true
+    },
+    "Value": {
+      "Packets": 10.0,
+      "Health": 10.0,
+      "Delay": 500.0
+    },
+    "Mode": {
+      "HealthMode": "MaxHealth"
+    }
+  },
+  "VClip": {
+    "Enabled": false,
+    "Mode": {
+      "Mode": "Normal"
+    }
+  },
+  "AntiObsidian": {
+    "Enabled": false
+  },
+  "FastPlace": {
+    "Enabled": false
+  },
+  "AutoL": {
+    "Enabled": false,
+    "Boolean": {
+      "AD": true,
+      "Report": true
+    }
+  },
+  "AutoGG": {
+    "Enabled": false,
+    "Boolean": {
+      "AD": true
+    }
+  },
+  "ServerCrasher": {
+    "Enabled": false,
+    "Mode": {
+      "Mode": "Book"
+    }
+  }
+}
